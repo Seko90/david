@@ -1,6 +1,7 @@
 David::Application.routes.draw do
   get "home/index"
   get "home/about"
+  get "home/test"
   get "layouts/slidershow2"
   root to: "home#index"
   # The priority is based upon order of creation: first created -> highest priority.
